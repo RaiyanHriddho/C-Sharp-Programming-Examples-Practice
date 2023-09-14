@@ -1,0 +1,187 @@
+CODE-01
+-------------------------------------------------------
+-------------------------------------------------------
+
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello World!");    
+    }
+  }
+}
+
+                      CODE-02
+-------------------------------------------------------
+-------------------------------------------------------
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine(3 + 3);
+    }
+  }
+}
+
+                     CODE-03
+-------------------------------------------------------
+-------------------------------------------------------
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string name = "John";
+      Console.WriteLine(name);  
+     }
+  }
+}
+
+                     CODE-04
+-------------------------------------------------------
+-------------------------------------------------------
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 15;
+      myNum = 20;
+      Console.WriteLine(myNum);
+    }
+  }
+}
+
+                     CODE-05
+-------------------------------------------------------
+-------------------------------------------------------
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 5;               // integer (whole number)
+      double myDoubleNum = 5.99D;  // floating point number
+      char myLetter = 'D';         // character
+      bool myBool = true;          // boolean
+      string myText = "Hello";     // string
+      Console.WriteLine(myNum);
+      Console.WriteLine(myDoubleNum);
+      Console.WriteLine(myLetter);
+      Console.WriteLine(myBool);
+      Console.WriteLine(myText);
+    }
+  }
+}
+
+                      CODE-06
+-------------------------------------------------------
+-------------------------------------------------------
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int myNum = 100000;
+      Console.WriteLine(myNum);
+    }
+  }
+}
+
+                      CODE-07
+-------------------------------------------------------
+-------------------------------------------------------
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      float myNum = 5.75F;
+      Console.WriteLine(myNum);
+    }
+  }
+}
+
+
+                      CODE-08
+-------------------------------------------------------
+-------------------------------------------------------
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int x = 100 + 50;
+      Console.WriteLine(x);  
+     }
+  }
+}
+
+                      CODE-09
+-------------------------------------------------------
+-------------------------------------------------------
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string greeting = "Hello";
+      Console.WriteLine(greeting);  
+     }
+  }
+}
+
+                     CODE-10
+-------------------------------------------------------
+-------------------------------------------------------
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      Console.WriteLine("The length of the txt string is: " + txt.Length);
+    }
+  }
+}
